@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Mac User follow below steps"
+## Mac User follow below steps
 
 - Install [TFenv](https://github.com/tfutils/tfenv) which will use terraform version as defined on the code
 
@@ -54,7 +54,7 @@ Mac User follow below steps"
     pre-commit run <hook_id> # runs particular hook
     ```
 
-Windows Users follow below steps:
+## Windows Users follow below steps
 
 - Install [Chocolatey](https://chocolatey.org/install#individual) which will help in installing tools easily. This is like apt for Windows.
 
