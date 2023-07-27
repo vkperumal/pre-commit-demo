@@ -1,6 +1,6 @@
 resource "aws_ebs_volume" "ebs" {
   #ts:skip=AC_AWS_0459 Variable is available to enable it
-  count             = var.add_ebs_volume ? var.instance_count : 0
+  count = var.add_ebs_volume ? var.instance_count : 0
   availability_zone = element(aws_instance.ec2.*.availability_zone, count.index)
   size              = var.ebs_volume_size
   type              = var.ebs_volume_type
